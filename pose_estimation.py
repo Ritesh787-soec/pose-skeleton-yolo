@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 
-INPUT_VIDEO = "input.mp4"
+INPUT_VIDEO = "dancer.mp4"
 OUTPUT_VIDEO = "pose_black.mp4"
 MODEL_PATH = "yolo26n-pose.pt"
 CONF = 0.25
